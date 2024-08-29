@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.home{
+  margin: 0px;
+  height: 1080px;
+  
+ 
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 348px;
+  font-family: Londrina Solid;
+  /* background-color: black; */
+  position: sticky;
+  
+}
+
+.logo{
+  width: 147px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo{
+  Width:52px;
+  Height:52px;
+}
+
+.navbar-text{
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  color: white;
+  text-align: center;
+  
+}
+
+.button-container{
+  background-color: white;
+  width: 92px;height: 48px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.user-icon{
+width: 24px;
+height: 24px;
+}
+
+button{
+  border: none;
+  background-color: white;
+  
+}
+
+input{
+  border: none;
+  background-color: white;
+  height: 60px;
+  border-radius: 20%;
+  font-family: Open Sans;font-size: 16px;font-weight: 400;line-height: 24px;text-align: center;
+}
+
+.main-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 292px;
+  height: 300px;
+}
+
+.big-text{
+  font-family: Open Sans;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 108px;
+  text-align: center;
+  color: white;
+}
+.small-text{
+  width: 750px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+}
+
+.searc-bar{
+  width: 800px;
+  height: 64px;
+  border-radius: 40px ;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.search-button{
+  width: 103px;
+  height: 40px;
+  border-radius: 20px;
+  background-color:  #2765DD;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.target{
+  margin-right: 5px;
+}

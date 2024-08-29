@@ -1,0 +1,15 @@
+body {
+  background-image: url('../public/home-wallpaper.jpeg');
+  background-size: cover;          /* Adjust the image to cover the entire background */
+  background-position: center;     /* Center the image */
+  background-repeat: no-repeat;    /* Prevent the image from repeating */
+  
+}
+
+#root{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 18.11%, rgba(0, 0, 0, 0) 100%);
+  width:100vw;
+  height: 100vh;
+  margin: 0px;
+
+}
